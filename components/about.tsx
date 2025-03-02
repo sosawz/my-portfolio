@@ -36,9 +36,8 @@ export default function About() {
             variants={fadeIn}
             className="relative aspect-square max-w-md mx-auto"
           >
-            <div className="absolute inset-0 border-2 border-primary rounded-lg transform translate-x-4 translate-y-4 -z-10"></div>
             <Image
-              src="/placeholder.svg?height=500&width=500"
+              src="/profile.PNG"
               alt="Profile"
               width={500}
               height={500}
@@ -92,7 +91,7 @@ export default function About() {
             </div>
             <div className="mt-8">
               <a
-                href="/your-cv.pdf"
+                href="/oorawan_sukngam_cv.pdf"
                 download
                 className="inline-flex items-center px-6 py-3 rounded-md bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
               >

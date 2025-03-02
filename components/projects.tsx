@@ -8,40 +8,22 @@ import Link from "next/link"
 export default function Projects() {
   const projects = [
     {
-      title: "Project One",
+      title: "Music player Mobile Application",
       description:
-        "A responsive web application built with React and Tailwind CSS. Features include user authentication, data visualization, and real-time updates.",
-      image: "/placeholder.svg?height=600&width=800",
-      tags: ["React", "Tailwind CSS", "Firebase"],
+        "Develop a music streaming application",
+      image: "/soundhub.png",
+      tags: ["Flutter", "MySQL"],
       liveLink: "#",
-      githubLink: "#",
+      githubLink: "https://github.com/sosawz/flutter_soundhub_project",
     },
     {
-      title: "Project Two",
+      title: "An IoT-Based Intelligent System for Real-Time Parking management and Automatic Billing",
       description:
-        "An e-commerce platform with product catalog, shopping cart, and payment integration. Built with Next.js and MongoDB.",
-      image: "/placeholder.svg?height=600&width=800",
-      tags: ["Next.js", "MongoDB", "Stripe"],
+        "Develop a real-time parking management system using IoT technology to enhance efficiency in parking management by providing comprehensive data to users via a website.",
+      image: "/IoT.png",
+      tags: ["React", "Node.js", "MySQL", "Blynk IoT"],
       liveLink: "#",
-      githubLink: "#",
-    },
-    {
-      title: "Project Three",
-      description:
-        "A content management system for bloggers with markdown support, image uploads, and SEO optimization tools.",
-      image: "/placeholder.svg?height=600&width=800",
-      tags: ["TypeScript", "Node.js", "PostgreSQL"],
-      liveLink: "#",
-      githubLink: "#",
-    },
-    {
-      title: "Project Four",
-      description:
-        "A mobile-first web application for tracking fitness goals and workouts, with progress visualization.",
-      image: "/placeholder.svg?height=600&width=800",
-      tags: ["React", "Chart.js", "Express"],
-      liveLink: "#",
-      githubLink: "#",
+      githubLink: "https://github.com/sosawz/An-IoT-Based-Intelligent-System-for-Real-Time-Parking-management-and-Automatic-Billing",
     },
   ]
 
@@ -116,7 +98,7 @@ export default function Projects() {
           variants={fadeIn}
           className="text-center mt-12"
         >
-          <Link href="#" className="inline-flex items-center text-primary hover:underline">
+          <Link href="https://sosawz-projects.my.canva.site/project-presentation" target="_blank " className="inline-flex items-center text-primary hover:underline">
             View All Projects
             <ArrowRight size={16} className="ml-1" />
           </Link>
